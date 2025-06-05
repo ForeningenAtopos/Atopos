@@ -234,6 +234,10 @@ button:hover {
     }
 
     .hamburger-menu {
+        display: none;
+    }
+
+    /* .hamburger-menu {
         display: flex;
         cursor: pointer;
         padding: 10px;
@@ -241,7 +245,7 @@ button:hover {
         position: absolute;
         left: 10px;
         top: 10px;
-    }
+    } */
 
     nav.open .nav-links {
         display: flex;
