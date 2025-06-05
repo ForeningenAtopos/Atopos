@@ -214,8 +214,13 @@ button:hover {
 /* Media query for tablets */
 @media screen and (max-width: 768px) {
 
-    toolbar {
-        padding: 16px 65px;
+    .toolbar {
+        padding: 16px 20px;
+    }
+
+    .values{
+        padding: 20px;
+
     }
 
     .title {
