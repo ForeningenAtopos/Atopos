@@ -1,39 +1,7 @@
-body {
-    margin: 0 !important;
-}
-
-.main {
-    flex: 1;
-}
-
-.values{
-text-align: center;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-
-.bg-image {
-    position: relative;
-    background-image: url('images/firestole.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
-}
-
-.bg-image::before {
-    content: "";
-    position: absolute;
-    inset: 0; /* fylder hele forældreelementet */
-    background-color: rgba(240, 240, 240, 0.9); /* lys grå med gennemsigtighed */
-    z-index: 1;
-}
-
-/* Hvis du har indhold i .bg-image */
-.bg-image > * {
-    position: relative;
-    z-index: 2;
+.brandname {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: gray
 }
 
 .toolbar {
@@ -44,12 +12,6 @@ text-align: center;
     align-items: center;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     position: relative;
-}
-
-.title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: gray
 }
 
 a {
@@ -233,12 +195,9 @@ button:hover {
         padding: 16px 20px;
     }
 
-    .values{
-        padding: 20px;
 
-    }
 
-    .title {
+    .brandname {
         font-size: 1.5rem;
         font-weight: bold;
         color: gray
@@ -305,6 +264,3 @@ button:hover {
     }
 
 }
-
-/* Media query for mobile phones */
-@media (max-width: 480px) {}

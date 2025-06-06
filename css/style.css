@@ -1,0 +1,33 @@
+body {
+    margin: 0 !important;
+        height: 100%;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+footer p.name {
+    font-weight: bold;
+}
+
+
+
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {}

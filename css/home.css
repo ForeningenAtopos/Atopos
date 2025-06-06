@@ -1,0 +1,39 @@
+.values{
+text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+.bg-image {
+    position: relative;
+    background-image: url('../images/firestole.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.bg-image::before {
+    content: "";
+    position: absolute;
+    inset: 0; /* fylder hele forældreelementet */
+    background-color: rgba(240, 240, 240, 0.9); /* lys grå med gennemsigtighed */
+    z-index: 1;
+}
+
+/* Hvis du har indhold i .bg-image */
+.bg-image > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Media query for tablets */
+@media screen and (max-width: 768px) {
+
+    .values{
+        padding: 20px;
+
+    }
+}
