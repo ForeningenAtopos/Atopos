@@ -14,19 +14,19 @@ text-align: center;
     margin: 0;
 }
 
-.bg-image::before {
+/* .bg-image::before {
     content: "";
     position: absolute;
     inset: 0; /* fylder hele forældreelementet */
-    background-color: rgba(240, 240, 240, 0.9); /* lys grå med gennemsigtighed */
-    z-index: 1;
-}
+    /* background-color: rgba(240, 240, 240, 0.9); /* lys grå med gennemsigtighed */
+    /* z-index: 1; */
+/* }  */
 
 /* Hvis du har indhold i .bg-image */
-.bg-image > * {
+/* .bg-image > * {
     position: relative;
     z-index: 2;
-}
+} */
 
 
 /* Media query for tablets */
